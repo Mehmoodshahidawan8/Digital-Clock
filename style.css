@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    color: #fff;
+  }
+  
+  .clock {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #time {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  #date {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+  #toggle-format {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #toggle-format:hover {
+    background-color: #218838;
+  }
+  
